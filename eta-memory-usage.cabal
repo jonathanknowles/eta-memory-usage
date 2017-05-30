@@ -1,0 +1,16 @@
+name:                eta-memory-usage
+version:             0.1.0.0
+author:              Jonathan Knowles
+maintainer:          mail@jonathanknowles.net
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable eta-memory-usage
+    main-is:             Main.hs
+    build-depends:       base >=4.8 && <4.9,
+                         bytestring,
+                         clock,
+                         text
+    hs-source-dirs:      source
+    default-language:    Haskell2010
+
